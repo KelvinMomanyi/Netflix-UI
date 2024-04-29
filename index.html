@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Your Title Here</title>
+   
+</head>
+<body>
+    <section class="body">
+      <img src="./assets/netflix.svg" class="netflix-logo"/>
+      <div class="menu-container">
+          <ul class="menu-list">
+              <li>Home</li>
+              <li>Movies</li>
+              <li>Series</li>
+              <li>Cartoons</li>
+          </ul>
+      </div>
+      <div class="menu-container2">
+        <ul class="menu-list2">
+            <li class="search-container">
+              <input type="text">
+              <i class="ri-search-line search-icon"></i>
+           </li>
+           <li>Favourites</li>
+           <li>
+            <i class="ri-notification-2-fill"></i>
+           </li>
+           <li>
+            <img src="./assets/t-avt-3.png" alt="" style="width: 40px; border: 1px solid white; border-radius: 50%;">
+           </li>
+           <li>
+             <i class="ri-arrow-down-s-fill" id="arrowDown"></i>
+           </li>
+           
+        </ul>
+      </div>
+      <div class="menu-btn" id="menuBtn">
+        <i class="ri-menu-fill"></i>
+      </div>
+      <div class="open-mininav" id="mini-sidebar">
+        <div style="display:flex; flex-direction: column; color:white;">
+          <ul style="list-style: none; padding-top: 5px; font-family:'Poppins';">
+          <li>Home</li>
+          <li>Movies</li>
+          <li>Series</li>
+          <li>Cartoons</li>
+          <li>Favourites</li>
+        </div>
+     </div>
+      <div class="open-nav" id="sidebar">
+        <div style="display:flex; flex-direction: column; color:white;">
+          <div class="menu-close" id="menuClose">
+            <i class="ri-close-fill"></i>
+          </div>
+          <ul style="list-style: none; padding-top: 5px; font-family:'Poppins';">
+          <li>
+            <img src="./assets/t-avt-3.png" alt="" style="width: 40px; border: 1px solid white; border-radius: 50%;">
+          </li>
+          <li>Home</li>
+          <li>Movies</li>
+          <li>Series</li>
+          <li>Cartoons</li>
+          <li>Favourites</li>
+          <li>
+            <input type="text" style="width: 50px;">
+          </li></ul>
+        </div>
+     </div>
+    
+     </div>
+     <div class="main">
+       <ul class='slider'>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/starwars2.jpg'); object-fit: cover;  ">
+           <div class='content'>
+             <h2 class='title'>Star Wars: The Rise of Skywalker</h2>
+             <p class='description'>"Star Wars: The Rise of Skywalker" serves as a grand finale to the Skywalker saga, 
+              blending epic battles with heartfelt moments. Rey's journey reaches a satisfying conclusion, while old
+               and new characters unite against the First Order. Despite pacing issues, the film delivers thrilling action
+                and emotional resonance, leaving fans with a satisfying conclusion to the iconic saga.</p>
+             <button>
+              Watch Now
+              <i class="ri-play-fill"></i>
+             </button>
+             <button>
+              <i class="ri-add-fill"></i>
+              Favourite
+            </button>
+            
+           </div>
+           
+         </li>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/spider.jpg'); object-fit: cover;">
+           <div class='content'>
+               <h2 class='title'>Spider-Man: Beyond the Spider-Verse</h2>
+               <p class='description'>"Spider-Man: Beyond the Spider-Verse" expands the multiverse with
+                 stunning animation and thrilling storytelling. Miles Morales returns, joined by new Spider-People 
+                 from alternate dimensions. The film seamlessly weaves humor, heart, and heroics, delivering a visually 
+                 spectacular and emotionally resonant adventure. It's a must-watch for fans of all ages, spinning a web
+                  of pure cinematic magic.</p>
+               <button>
+                Watch Now
+                <i class="ri-play-fill"></i>
+               </button>
+               <button>
+                <i class="ri-add-fill"></i>
+                Favourite
+               </button>
+            
+           </div>
+         </li>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/transformers.jfif')">
+           <div class='content'>
+             <h2 class='title'>Transformers: Rise of the Beasts</h2>
+             <p class='description'>"Transformers: Rise of the Beasts" takes audiences on a riveting journey
+               back to the 1990s, unveiling untold chapters of the Transformers saga. Directed by Steven Caple Jr.,
+                the film introduces new factions like Maximals and Predacons, alongside the iconic Autobots and Decepticons. 
+                With electrifying action sequences and stunning visual effects, it delivers a nostalgic yet innovative experience.
+               </p>
+             <button>
+              Watch Now
+              <i class="ri-play-fill"></i>
+             </button>
+             <button>
+              <i class="ri-add-fill"></i>
+              Favourite
+            </button>
+           </div>
+         </li>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/john.jpg')">
+           <div class='content'>
+             <h2 class='title'>John Wick: Chapter 4</h2>
+             <p class='description'>"John Wick: Chapter 4" amplifies the franchise's adrenaline with
+               relentless action and depth. Keanu Reeves excels, delivering a riveting portrayal of the 
+               titular assassin. Director Chad Stahelski crafts jaw-dropping sequences, ensuring the film
+                is a visceral thrill ride. It's a must-watch for fans craving intense action and captivating
+                 storytelling.</p>
+             <button>
+              Watch Now
+              <i class="ri-play-fill"></i>
+             </button>
+             <button>
+              <i class="ri-add-fill"></i>
+              Favourite
+            </button>
+           </div>
+         </li>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/joker.jpg')">
+           <div class='content'>
+             <h2 class='title'>Joker: Folie à Deux</h2>
+             <p class='description'>"Joker: Folie à Deux" is a gripping exploration 
+              of the iconic character's psyche. Joaquin Phoenix's mesmerizing performance
+               captivates, delving into the depths of madness and chaos. Director's bold
+                vision immerses viewers in a dark, unsettling world. With its raw emotion 
+                and provocative narrative, it's a hauntingly unforgettable cinematic experience.</p>
+             <button>
+              Watch Now
+               <i class="ri-play-fill"></i>
+             </button>
+             <button>
+              <i class="ri-add-fill"></i>
+              Favourite
+             </button>
+           </div>
+         </li>
+         <li class='item' style="background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/planet.jpg')">
+           <div class='content'>
+             <h2 class='title'>Kingdom of the Planet of the Apes</h2>
+             <p class='description'>"Kingdom of the Planet of the Apes" is a riveting culmination
+               of the franchise, blending heart-wrenching drama with epic action. Andy Serkis delivers
+                a powerhouse performance as Caesar, leading the apes in a struggle for survival. The film's
+                 stunning visuals and emotional depth make it a fitting conclusion to this captivating saga.</p>
+             <button>
+              Watch Now
+              <i class="ri-play-fill"></i>
+             </button>
+             <button>
+              <i class="ri-add-fill"></i>
+              Favourite
+            </button>
+           </div>
+         </li>
+       </ul>
+       <div class='navigate'>
+         
+         <i class="ri-arrow-left-circle-fill btn next"></i>
+         <i class="ri-arrow-right-circle-fill  btn prev "></i>
+         <!-- <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+         <ion-icon class='btn next' name="ion-ios-arrow-thin-right"></ion-icon> -->
+       </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
